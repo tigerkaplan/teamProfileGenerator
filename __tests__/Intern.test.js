@@ -23,7 +23,7 @@ test("email via getEmail()", () => {
 });
 
 test("getRole() should return \"Intern\"", () => {
-  expect(e.getRole()).toBe("Intern");
+  expect(intern.getRole()).toBe("Intern");
 });
 
 // test("Can set school via constructor", () => {
@@ -32,7 +32,6 @@ test("getRole() should return \"Intern\"", () => {
 //   expect(e.school).toBe(testValue);
 // });
 
-
 test("Can get school via getSchool()", () => {
-  expect(e.getSchool()).toBe("UCLA");
+  expect(intern.getSchool()).toBe("UCLA");
 });
